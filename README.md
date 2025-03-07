@@ -1,5 +1,9 @@
 This is the web drawing app with p5.js.
 
+<div>
+  <img src="https://github.com/darkmoon810/web_drawing_app/blob/master/drawingapp.PNG" />
+</div>
+
 It's main features are:
 
 <div>
