@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.js"></script>
+
+
+  <!-- add extra scripts below -->
+  <script src="toolbox.js"></script>
+  <script src="colourPalette.js"></script>
+  <script src="helperFunctions.js"></script>
+  <script src="freehandTool.js"></script>
+  <script src="lineToTool.js"></script>
+  <script src="sprayCanTool.js"></script>
+  <script src="mirrorDrawTool.js"></script>
+  <script src="eraserTool.js"></script>
+  <script src="shapeDrawTool.js"></script>
+  <script src="zoomPanManager.js"></script>
+  <script src="textTool.js"></script>
+  <script src="cropTool.js"></script>
+  <script src="bucketTool.js"></script>
+  <script src="imageUploadTool.js"></script>
+  <script src="brushTool.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="sketch.js"></script>
+  <script src="rightbar.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="box header">
+      <div class="header-top">
+        <div class="app-title">My Drawing App</div>
+        <div class="header-buttons">
+          <button id="clearButton">
+            <span>🗑️</span>
+            Clear
+          </button>
+          <button id="saveImageButton">
+            <span>💾</span>
+            Save Image
+          </button>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <b style="color: #00f;">Ctrl+S&nbsp; </b> to save image,&nbsp; <b style="color: #0f0;">Ctrl+Shift+C&nbsp; </b> to clear canvas
+      </div>
+    </div>
+    <!-- <div class="main-area"> -->
+    <div class="box" id="sidebar">
+      <div id="toolbox"></div>
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="rightbar"></div>
+    <!-- </div> -->
+    <div class="box colourPalette"></div>
+    <div class="box options"></div>
+  </div>
+</body>
+
+</html>
